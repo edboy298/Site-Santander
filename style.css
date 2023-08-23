@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+
+
+}
+
+.caixa {
+    padding: 25px;
+}
+
+.logo {
+    width: 140px;
+    max-width: 100%;
+
+}
+
+.link-voce {
+    color: red;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.link-voce:hover {
+    text-decoration: underline;
+}
+
+.link-empresa {
+
+    color: black;
+    margin-left: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.link-empresa:hover {
+    text-decoration: underline;
+}
+
+.suporte{
+ 
+    color: red;
+    margin-left: 700px ; 
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.suporte:hover{
+             opacity: 0.4;
+
+}
+
+
+
+.background {
+    width: 100%;
+    max-width: 100%;
+}
+
+h3 {
+    margin-left: 300px;
+    margin-top: 60px;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+li {
+    height: 190px;
+    width: 190px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display:  inline-block;
+}
+
+.imagem-produtos {
+    width: 60px;
+   margin-left: auto;
+    margin-right: auto;
+    display: block;
+   padding-top: 30px;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+
+
+}
