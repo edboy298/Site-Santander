@@ -1,0 +1,99 @@
+*{ font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    background-color: red;
+
+}
+
+div{
+       width: 40%;
+       min-width: 350px ; /*largura minima*/
+       background-color: white;
+       border-radius: 10px;
+       margin: 15px auto;
+       box-shadow:  0 15px 30px rgb(0,0,0);
+       height: 480px;
+        
+}
+
+input,textarea{
+    
+    min-width: 320px;
+    display: block;
+    margin: 15px auto;
+    border: 3px solid rgb(214, 1, 1) ;
+    border-radius: 5px;
+    padding: 10px ;
+    height: 40px;
+    text-align: center;
+
+}
+
+textarea{  height: 250px;
+
+            padding-top: 10px
+
+
+}
+
+#buttom{
+    display: block;
+    margin:20px auto;
+    height: 40px;
+    width: 320px;
+    border: none;
+    border-radius: 5px;
+    background: #ff1202;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+        
+}
+
+
+#buttom:hover{
+
+    opacity: 0.9;
+}
+
+#buttom:active{
+
+    opacity: 0.6;
+}
+
+
+#logo{ 
+     top: 0px;
+     left: 20%;
+     transform: translatex(370%);
+     border-radius: 12px;
+     border: 2px solid white;
+     width: 12%;
+    max-width: 20%;
+     height: auto;
+    
+
+}
+
+
+.borda-no-texto {
+    border: 1px solid rgb(255, 254, 254);
+    border-radius: 10px;
+    padding: 10px;
+    height: 10vh; /* Para centralizar verticalmente também */
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+  
+  }
+
+  h1{
+    text-align: center;
+  }
+  
