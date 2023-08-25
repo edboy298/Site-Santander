@@ -1,0 +1,172 @@
+
+/* Estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Resto dos estilos ... */
+
+/* Media queries para responsividade */
+@media (max-width: 1200px) {
+    .container {
+        padding: 15px;
+    }
+    /* Mais ajustes conforme necessário */
+}
+
+@media (max-width: 992px) {
+    h3 {
+        margin-left: 10px;
+        font-size: 30px;
+    }
+    /* Mais ajustes conforme necessário */
+}
+
+@media (max-width: 768px) {
+    .caixa {
+        text-align: center;
+    }
+    .logo {
+        margin: 0 auto; /* Centraliza o logo horizontalmente */
+        margin-bottom: 15px;
+    }
+    .link-voce,
+    .link-empresa {
+        margin: 10px 0; /* Adicionado espaço vertical entre os links */
+        font-size: 18px;
+    }
+    .suporte {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        font-size: 16px;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    /* Ajustes adicionais para alinhar os links verticalmente */
+    .caixa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Mais ajustes conforme necessário */
+}
+
+@media (max-width: 576px) {
+    h3 {
+        margin-left: 0;
+        font-size: 24px;
+    }
+    .link-voce,
+    .link-empresa {
+        font-size: 16px;
+    }
+    .suporte {
+        font-size: 14px;
+    }
+    /* Mais ajustes conforme necessário */
+}
+/* Estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Resto dos estilos ... */
+
+/* Media queries para responsividade */
+@media (max-width: 1200px) {
+    .container {
+        padding: 15px;
+    }
+    /* Mais ajustes conforme necessário */
+}
+
+@media (max-width: 992px) {
+    h3 {
+        margin-left: 10px;
+        font-size: 30px;
+    }
+    /* Mais ajustes conforme necessário */
+}
+
+@media (max-width: 768px) {
+    .caixa {
+        text-align: center;
+    }
+    .logo {
+        margin: 0 auto; /* Centraliza o logo horizontalmente */
+        margin-bottom: 15px;
+    }
+    .link-voce,
+    .link-empresa {
+        margin: 10px 0; /* Adicionado espaço vertical entre os links */
+        font-size: 18px;
+    }
+    .suporte {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        font-size: 16px;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    /* Ajustes adicionais para alinhar os links verticalmente */
+    .caixa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Mais ajustes conforme necessário */
+}
+
+@media (max-width: 576px) {
+    h3 {
+        margin-left: 0;
+        font-size: 24px;
+    }
+    .link-voce,
+    .link-empresa {
+        font-size: 16px;
+    }
+    .suporte {
+        font-size: 14px;
+    }
+    /* Ajustes adicionais para o botão de suporte */
+    .suporte {
+        position: static;
+        margin-top: 10px;
+    }
+    /* Mais ajustes conforme necessário */
+}

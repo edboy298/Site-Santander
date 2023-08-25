@@ -1,3 +1,7 @@
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -42,16 +46,17 @@
 }
 
 .suporte{
- 
-    color: red;
-    margin-left: 700px ; 
+    margin-left: 30px;
+    color: rgb(14, 14, 14);
+    margin: 2px; 
+    padding: 5px;
     font-size: 20px;
     cursor: pointer;
-    font-weight: bold;
+    
     border: 1px solid red;
     border-radius: 3px;
     text-decoration: none;
-    padding: 5px;
+  
     text-align: center;
 }
 
